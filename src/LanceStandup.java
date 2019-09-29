@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class lanceStandup {
+public class LanceStandup {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -8,19 +8,19 @@ public class lanceStandup {
 
 //        /////// If, else-if, and else blocks  ///////////////
 
-//        System.out.println("Welcome to SuperFast Rollercoaster");
-//        System.out.print("Please enter your height in inches:");
-//        int height = sc.nextInt();
-//
-//        if(height < 60){
-//            System.out.println("Sorry, you're too short");
-//        } else if(height > 84) {
-//            System.out.println("Sorry, you're too tall");
-//        }
-//
-//        else {
-//            System.out.println("Enjoy the ride");
-//        }
+        System.out.println("Welcome to SuperFast Rollercoaster");
+        System.out.print("Please enter your height in inches:");
+        int height = sc.nextInt();
+
+        if(height < 60){
+            System.out.println("Sorry, you're too short");
+        } else if(height > 84) {
+            System.out.println("Sorry, you're too tall");
+        }
+
+        else {
+            System.out.println("Enjoy the ride");
+        }
         //////// Complex conditions with logical operators  /////////
 
 //        if(height > 60 && height < 84) {
@@ -62,32 +62,32 @@ public class lanceStandup {
 
         ////// Introduction to methods //////
 
-        System.out.println(19);
-        bar();
-        foo();
-        System.out.println(24);
-    }
-
-    public static void foo() {
-        int x = 50;
-        System.out.println(x);
-        System.out.println(16);
-    }
-    public static  void bar(){
-        foo();
-        System.out.println("12");
+//        System.out.println(19);
+//        bar();
+//        foo();
+//        System.out.println(24);
+//    }
+//
+//    public static void foo() {
+//        int x = 50;
+//        System.out.println(x);
+//        System.out.println(16);
+//    }
+//    public static  void bar(){
+//        foo();
+//        System.out.println("12");
 
         ////// Passing data to methods ////////
-
-        int var = 5;
-
-
-        foo(var, 57.5, " It's hard to connect with people");
-
-
-    }
-    public static void foo(int a, double b, String c){
-        System.out.println(a + b + c);
+//
+//        int var = 5;
+//
+//
+//        foo(var, 57.5, " It's hard to connect with people");
+//
+//
+//    }
+//    public static void foo(int a, double b, String c){
+//        System.out.println(a + b + c);
 
 
     }
