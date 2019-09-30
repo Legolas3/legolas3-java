@@ -4,16 +4,16 @@ import java.util.Arrays;
 
 public class noTriples {
     public static boolean noTriples(int[] nums) {
-        for (int i=0; i < (nums.length-2); i++){
+        for (int i=0; i < (nums.length-2); i++) {
             int first = nums[i];
-            if(nums[i+1]==first && nums[i+2]==first)
+            if (nums[i + 1] == first && nums[i + 2] == first)
                 return false;
-            }
-            return true;
+        }
+                return true;
     }
 
     public static void main(String[] args) {
-//        System.out.println(noTriples());
+        System.out.println(noTriples(new int[]{2, 1, 5, 5}));
     }
 
 
