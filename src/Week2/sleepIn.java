@@ -1,3 +1,5 @@
+package Week2;
+
 public class sleepIn {
 
     public boolean sleepIn(boolean weekday, boolean vacation) {

@@ -1,3 +1,5 @@
+package Week2;
+
 import javax.print.DocFlavor;
 import java.util.Scanner;
 

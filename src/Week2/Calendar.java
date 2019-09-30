@@ -1,10 +1,12 @@
+package Week2;
+
 import java.util.Scanner;
 
 public class Calendar {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-//        Calendar calendar = Calendar.getInstance();
+//        Week2.Calendar calendar = Week2.Calendar.getInstance();
 
         System.out.println("Enter the date: MM/DD/YYYY");
         String userCal = sc.nextLine();
