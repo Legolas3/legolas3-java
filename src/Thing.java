@@ -1,6 +1,6 @@
 public class Thing {
-    int num;
-    String word;
+  public   int num;
+    public String word;
 
     void foo(){
         System.out.println(num * 3);
